@@ -1,1 +1,187 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>idyllic21's Page</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/half-slider.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+       <!-- Google Analytics--> 
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69271270-1', 'auto');
+  ga('send', 'pageview');
+
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Michelle Tan</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="http://idyllic21.github.io/finalGame/">Final Assignment</a>
+                    </li>
+                    <li>
+                        <a href="http://idyllic21.github.io/myGame/">SpeedClick Game</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Half Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Welcome');"></div>
+                <div class="carousel-caption">
+                    <h2>Do check out my games!</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Survival Instincts');"></div>
+                <div class="carousel-caption">
+                    <h2>Test your survival skills</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Speed Click');"></div>
+                <div class="carousel-caption">
+                    <h2>How fast can you click?</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>NM2207 Game Page</h1>
+                <font size="5" color="black"> <p>Hi, I'm Michelle! This page was created for my NM2207 project! <br>Do check out my games :) The links are at the top left. <br><br> 
+
+            Or you can click here for my final assignment: <a href="http://idyllic21.github.io/finalGame/">click here!</a> <br> <br></font>
+
+            <font size="3.5" color="black">
+Here is a write-up on my final assignment: 
+
+<br> <br> 
+<b>Introduction</b> <br>
+The game I created for my final assignment is called Survival Instincts. The game involves the player who will navigating through the skies on a helicopter with his/her friend. The first segment of the game involves an animated story that narrates how a storm caused the helicopter to crash. After which, the player blacks out and upon gaining consciousness, realizes that his/her friend had disappeared. The player then has to play the game which involves killing poisonous, exotic flies before it reaches the player at the bottom of the screen. The game ends after the player has stayed alive for 20 seconds, or when the health meter decreases to zero. I decided to create two segments for my assignment – animated story and the game, as I wanted to challenge my skills as well as to be able to make use for the variety of skills that we have learnt throughout the module.
+<br><br>
+<b>Process </b><br>
+I started off with the HTML layout that I had used for my previous assignment and began modifying it to fit my game. I made use of Javascript library, Raphael.js to create graphics and animation for my game. For instance, I could create rectangles, circles and texts, and tweak the positioning and attributes of these graphics to fit the game. Raphael animation was also used to animate the helicopter and lightning. 
+<br><br>
+I made use of arrays and loops for the rainstorm and flies. For the rainstorm, I created an array of raindrops and looped them for 150 (maxRaindrop) of raindrops. I created a draw function for enabling the raindrops to move by changing its x and y coordinates, and called on that function every 40ms with setInterval. I also referred to the emitter tutorial that we had in class, to enable more raindrops to be created even after 150 (maxRaindrop) raindrops had been created. The “%” operator ensures that the value of i will not exceed 150, hence, the loop will not stop. Similarly, this method was used for creating and looping the array of flies for the fly game. The map and distance functions that we used for assignment 4 came in handy for enabling me to scale the distance for the x and y coordinates and rates for the fly array. 
+<br><br>
+As there were many elements in final assignment, I had to organize my code neatly to avoid confusion. The placement of the variables was also very important as I met with many error messages when variables were not defined globally. Using console messages helped greatly in troubleshooting the errors that I encountered. I realized that it was very important to think calmly and logically about the origin of the error. 
+<br><br>
+If statements were very useful in enabling me to run functions when certain conditions were met. For instance, if the mousedown coordinates is within 100, the fly will be set off-screen and a splat sound will be played. If the fly is very close to the bottom of the screen, a panic alert will sound and some exclamations marks will appear at the bottom right hand corner. If the health value is zero, it will run the Game Over function. If the time runs out and the player is still alive, it will run Survived function, which informs the user that s/he has found his/her friend and civilization. The if statements also enabled me to set the difficulty of the game depending on the selected difficulty level. 
+<br><br>
+Referring to coding platforms such as w3schools.com aided me in improving and trying to find solutions for my game. I was initially trying to create a health bar using a Raphael graphic, but after searching online (https://css-tricks.com/html5-progress-element/), I realized that there is a HTML progress bar element which can be used for health bars in games. Hence, I decided to utilize it and place it outside of my Raphael “paper” to avoid overlapping with the game. 
+<br><br>
+After I had conceptualized the theme and mechanics for my game, I began to sourced for suitable images and sound files for my game to enhance the game experience for the user. All the sound files were sourced from Freesound.org, and I modified the length of the sounds using audio software to fit the game. Timers and event listeners enabled me to play the audios at the appropriate time. Through researching online, I discovered how to make use of a function to gradually decrease volume, so that there is a better transition to the next page. 
+<br><br>
+<b>Further Improvements</b><br><br>
+In order to enable users to skip the story animation scenes, two buttons were created beside the mySVGCanvas Div. The first button enables the user to skip the storyline, regardless of which scene they are currently in. The drawback of this is that some animation may not have appeared on the screen when the button is clicked, due to setTimeout functions on the scene text and next buttons. To overcome this problem, I included a setTimeout inside of the eventListener to hide all the elements, in case new elements appear after the button was clicked. Another drawback is that error codes will appear if the button is clicked in the first scene, before it starts raining. This is because the rain array is only initialized inside of var scene2. To counter this problem, I created another button is specifically for stopping the rain. The event listener listens for clicks, and will run a function to hide the rain if the rain has started. 
+<br><br>
+During the coding of my game, I faced many challenges and error codes. In particular, I had great difficulty in trying to hide and show the appropriate elements at the correct time. Despite many attempts, I was unable to hide all the flies off the screen after the game ends. The flies that are already on the screen will still stay stationary on that screen after the drawFly interval is cleared. Also, restarting the game works if it was “game over”- new flies will appear. However, if the player survived the game and wanted to replay, new flies do not appear. I regret not being able to fix this bug, but I suspect it may be because the survived function was created outside of the function containing the initialization of the fly array.    
+<br><br>
+To further enhance the game experience, perhaps obstacles could be added into the game to increase difficulty. For instance, clicking on obstacles such as endangered animal species, could result in loss of health, penalty points or an extension of time (i.e having to survive in a longer period of time). Overall, while there is still room for improvement, the coding process was very valuable and challenged my limits. 
+</font>
+                 </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; idyllic21 2015</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
